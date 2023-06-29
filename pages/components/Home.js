@@ -9,6 +9,7 @@ import {
 } from "react-icons/tb";
 
 import React from "react";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -42,10 +43,11 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img
-              src="./Image.png"
+            <Image
+              src="/Image.png"
               alt="an emoji of myself on a laptop"
-              className="h-[330px]"
+              height={250}
+              width={250}
             />
           </div>
         </div>

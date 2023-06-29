@@ -9,6 +9,7 @@ import {
 } from "react-icons/tb";
 
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -18,10 +19,12 @@ const About = () => {
       </div>
       <div className="flex flex-row h-[98%] justify-center place-items-center space-x-10">
         <div className="max-w-[600px] flex flex-col space-y-5">
-          <img
-            src="./laptop.jpg"
+          <Image
+            src="/laptop.jpg"
             alt=""
-            className=" rounded-xl max-h-[350px]"
+            height={350}
+            width={350}
+            className="rounded-xl"
           />
         </div>
         <div className="max-w-[600px] flex flex-col">
