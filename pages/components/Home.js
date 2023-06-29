@@ -43,7 +43,7 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="./image.png"
+              src="./Image.png"
               alt="an emoji of myself on a laptop"
               className="h-[330px]"
             />
